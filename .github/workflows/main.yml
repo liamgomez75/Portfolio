@@ -16,6 +16,8 @@ jobs:
       uses: actions/setup-dotnet@v1
       with:
         dotnet-version: 6.0.x
+    - name: Install .NET WASM Build Tools
+      run: dotnet workload install wasm-tools
     # publishes Blazor project to the release-folder
     - name: Publish .NET Core Project
       run: dotnet publish Portfolio/Portfolio/Portfolio.csproj -c:Release -p:GHPages=true -o dist/Web --nologo
