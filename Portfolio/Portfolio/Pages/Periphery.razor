@@ -1,0 +1,21 @@
+﻿@page "/periphery"
+
+<h3>Periphery</h3>
+
+<p>In the summer of 2015 I was given the oppurtunity to work in the Stanford Vision and Learning Lab as an intern. During my time at Stanford they had me work on gamifying the process of collecting data for training artificial intelligence. The premise of this project was to understand how humans see objects and recognize their edges through vision.</p>
+
+<h4>The Game Concept</h4>
+<p>The game was designed to be an online multiplayer experience where two users would each take on the role of outliner and guesser. In a similar fashion to the game Pictionary, one person would draw and the other would have to guess what it is that person was drawing. The difference with this game, however, is that the player drawing would already have an image in front of them which they would be tasked with tracing an outline of that image or object. The other player would then have to guess what that object is all while only being able to see the lines being traced by the outliner. The drawing data and the correct guesses for objects would then be collected and used to train AI in image recognition.</p>
+
+<h4>The Challenges of Periphery</h4>
+<p>This project presented me with many challenges that I ended up creating unique solutions to. I worked on this project during the summer of my junior year of high school. It was a time when I was still very early in my knowledge of programming and at the time I had no idea how to accomplish many of the tasks laid out before me. It was through a lot of hard work and dedication that I was able to learn all of the necessary skills to take on this project.</p>
+
+<h4>Self Driven</h4>
+<p>This project taught me how to become self driven and deal with ambiguity. I was given creative freedom in this projects implementation and I took advantage of that to really let my skills shine. Web applications were relatively new to me, and with only a weekend to prepare I took to studying AngularJS and Meteor. I was able to create an offline prototype of this project in a matter of days having almost no prior javascript experience.</p>
+
+<h4>Multiplayer and Matchmaking</h4>
+<p>Although having no networking experience, I was able to design and implement a matchmaking system for the game. The way I did this was by creating lobbies which housed unique session IDs that were stored on the backend server's database. Whenever a player chose to play the game they would first query the server to see if a lobby exists. The server would then search a list of lobbies to see if one with only 1 player existed. If no lobbies with only one player existed then a new lobby with a brand new session ID would be created. Once the player was successfully able to find a match, both players would be served the same content from the server in accordance to their shared lobby session ID. Players were then assigned the roles of outliner or guesser based on whoever arrived to the lobby first. The host of the lobby would always become the outliner, and the player joining the lobby would become the guesser. </p>
+
+@code {
+
+}

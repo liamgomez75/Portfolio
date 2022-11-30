@@ -6,7 +6,13 @@
     <NotFound>
         <PageTitle>Not found</PageTitle>
         <LayoutView Layout="@typeof(MainLayout)">
-            <p role="alert">Sorry, there's nothing at this address.</p>
+            <NavLink class="link-2" href="">
+                <p role="alert" style="text-align:center;"> >Error 404: Sorry the gopher must have took that page.</p>
+                <div>
+                    <div style="margin-left:auto;margin-right:auto;width:30px;height:11px;"> <img src="Images/gopher_hole.png" /></div>
+                </div>
+            </NavLink>
+            
         </LayoutView>
     </NotFound>
 </Router>
