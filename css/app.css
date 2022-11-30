@@ -1,4 +1,4 @@
-html, body {
+﻿html, body {
     font-family: "Computer Modern Sans", sans-serif;
     background-color: #121212;
     font-size: 18px;
@@ -39,7 +39,7 @@ a:hover {
     text-decoration: none;
 }
 
-a{
+a {
     color: #39ff14;
     text-decoration: none;
 }
