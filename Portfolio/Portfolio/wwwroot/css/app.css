@@ -39,6 +39,11 @@ a:hover {
     text-decoration: none;
 }
 
+.images{
+    max-width:720px;
+}
+
+
 a {
     color: #39ff14;
     text-decoration: none;
