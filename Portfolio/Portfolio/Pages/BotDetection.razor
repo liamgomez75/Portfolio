@@ -1,0 +1,17 @@
+﻿@page "/botdetection"
+
+<h3>Botting Detection System</h3>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/iPrChMpJsLc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<p>
+	As the culmination of my Cyber Security course at California State University San Marcos, I designed a sophisticated bot detection system to combat cheating in a game built on the Unity engine. My system incorporates real-time measures that distinguish bots from human players. Moreover, I incorporated anti-cheat and anti-tampering measures to fortify the game's security. After subjecting my system to rigorous testing against various bot script variations, including those utilizing simple mouse movement, AI-influenced scripts, and code injection, I am pleased to report that none of them were able to evade my implemented measures.
+</p>
+
+<h4>Game Launcher</h4>
+<img src="Images/registration.PNG" style="max-width:720px;" />
+<p>
+	To bolster the game's security measures, I crafted a custom game launcher that leverages user authentication and CAPTCHAs to thwart botting attempts. For user authentication, I utilized Microsoft PlayFab, which seamlessly and securely manages login sessions between the launcher and the game. Moreover, I deployed the BlazorCaptcha system for CAPTCHA verification, which provided an additional layer of security. My team tested the effectiveness of the CAPTCHA feature using an AI, which failed to bypass the BlazorCaptcha in every attempt made during account creation.
+</p>
+
+@code {
+
+}
